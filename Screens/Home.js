@@ -1,6 +1,14 @@
 import React from "react";
-import { FlatList, ImageBackground, StyleSheet, Text, Touchable, TouchableOpacity, View } from "react-native";
+import { FlatList, Image, ImageBackground, StyleSheet, Text, Touchable, TouchableOpacity, View } from "react-native";
 
+const Items = () => {
+
+  return (
+    <View>
+      <Image source={require('../assets/Product card_new.png')} />
+    </View>
+  )
+}
 function Home(): React.JSX.Element {
 
   return (
